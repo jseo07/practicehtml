@@ -3,23 +3,61 @@
     <head>
         <title>websample</title>
         <meta charset="utf-8">
-    </head>
+        <style>
+            a{
+                text-decoration: none;
+                color:black;
 
+            }
+            h1{
+                font: bold 40px Tahoma, sans-serif;
+                text-align:center; 
+                border-bottom:1px solid gray;
+                margin:0;
+                padding:50px;
+                }
+            .saw{
+                color:gray;
+            }
+            ul{
+                border-bottom:1px solid gray;
+                padding:20px;
+                margin-top:0px;
+                font: 17px Tahoma, sans-serif;
+                list-style-type: none;
+                text-align:center
+            }
+            #menu{
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+            
+            
+            #article{
+                font: 15px Tahoma, sans-serif;
+                text-align: center;
+            }
+            
+            
+        </style>
+    </head>
+ 
     <body>
-        <h1><a href="Home.html">SAMPLE</a></h1>
-        <ol>
-            <li><a href="1.html">CONTENT</a> </li>
-            <li><a href="2.html">LINE</a> </li>
-            <li><a href="3.html">INDENT</a></li>
-        </ol>
+        <h1><a href="Home.html">Jangwon</a></h1>
+        <div id="grid">
+            <ul id="menu">
+                <li><a href="1.html" class="saw">HTML</a> </li>
+                <li><a href="2.html">CSS</a> </li>
+                <li><a href="3.html"class="saw">JS</a></li>
+            </ul>
+        </div>
+        <div id="article">
+            <h2>JS Practice Page</h2>        
+            <p> fack</p>
+            <img src="The Last OF US 2 Ultra HD Wallpapers, HD Images 5120x2880.jpg" width="80%">
+            <p>hi</p>
+        </div>
         
-        
-        <h2>JS Practice Page</h2>
-        <h3>Introduction</h3>
-    
-        <p> fack</p>
-        <img src="image.jpg" width="80%">
-        <p>hi</p>
         <p><div id="disqus_thread"></div>
             <script>
                 /**
